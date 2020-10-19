@@ -1,0 +1,42 @@
+@import "mixins";
+@import "_country"; //@Import estilos de otros archivos formato .scss
+@import "_flags";
+@import "_results";
+
+$bgcolor: #bfe9f3;
+$font_color: #010a22;
+
+html body {
+    width: 100%;
+    color: $font_color;
+    background-color: $bgcolor;
+}
+header {
+    padding-left: 20px;
+}
+
+.form {
+    padding-left: 20px;
+    display: flex;
+    align-content: space-between;
+}
+
+.inputs {
+    margin-left: 30px;
+}
+
+.output {
+    padding: 20px;
+}
+
+.pregunta {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
