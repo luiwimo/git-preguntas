@@ -50,9 +50,9 @@ function init() {
                     const resumen = document.getElementById('resumen');
                     const contador = resumen.options[resumen.selectedIndex].value;
                     console.log(contador);
-
+                    alert('Respuestas enviadas')
                  
-                    //location.reload();
+                    location.reload();
                 })
 
             })
