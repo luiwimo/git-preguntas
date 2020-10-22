@@ -24,17 +24,17 @@ function init() {
                     const output = document.createElement('div')
                     output.classList.add('output')
                     if(tipo.value == 'multiple'){
-                    output.innerHTML = '<label for="">' + arr[i].question + '</label>'
+                    output.innerHTML = '<label for="">' + arr[i].question + '</label><br>'
                         + '<select name="resumen" id="resumen" required>'
-                        + '<option value="0" selected disabled>------Selecione una respuesta-----</option >'
+                        + '<option value="0" selected disabled>Selecione una respuesta</option >'
                         + '<option value="1" >' + arr[i].correct_answer + '</option >'
                         + '<option value="0">' + arr[i].incorrect_answers[0] + '</option>'
                         + '<option value="0">' + arr[i].incorrect_answers[1] + '</option>'
                         + '<option value="0">' + arr[i].incorrect_answers[2] + '</option>'
                      }else{
-                        output.innerHTML = '<label for="">' + arr[i].question + '</label>'
+                        output.innerHTML = '<label for="">' + arr[i].question + '</label><br>'
                         + '<select name="resumen" id="resumen" required>'
-                        + '<option value="0" selected disabled>------Selecione una respuesta-----</option >'
+                        + '<option value="0" selected disabled>Selecione una respuesta</option >'
                         + '<option value="1" >' + arr[i].correct_answer + '</option >'
                         + '<option value="0">' + arr[i].incorrect_answers[0] + '</option>'
                      }
